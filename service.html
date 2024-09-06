@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviço</title>
+    <link rel="stylesheet" href="./service.css">
+    <script src="https://kit.fontawesome.com/7419c42445.js" 
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <button id="btnVoltar"><a href="./index.html"><i class="fa-solid fa-arrow-left"></i></a></button>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Voltar</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <img class="service-dog" src="./img/dog.png" alt="cachorro2">
+            <div class="forms">
+                <form>
+                    <h2>Preencha os campos com seus dados:</h2>
+                    <br>
+                    <input type="text" placeholder="Seu Nome">
+                    <br>
+                    <input type="email" placeholder="Seu E-mail">
+                    <br>
+                    <input type="tel" placeholder="Seu Telefone">
+                    <br>
+                    <input type="text" placeholder="Peso do(s) cachorros respectivamente">
+                    <br>
+                    <label for="qtd">Quantidade de Cachorros (Max.5 e Min.1)</label>
+                    <br>
+                    <input id="qtd" type="number" max="5" min="1">
+                    <br>
+                    <p>
+                        Escolha uma das opções:
+                    </p>
+                    <div class="choose">
+                        <label for="entrega">Entrega</label><input type="radio" name="opcao" id="entrega">
+                        <label for="busca">Busca</label><input type="radio" name="opcao" id="busca">
+                        <label for="entregaebusca">Entrega e Busca</label><input type="radio" name="opcao" id="entregaebusca">
+                    </div>
+                    <br>
+                    <label for="endereco">Seu Endereço:</label>
+                    <br>
+                    <textarea name="Endereço" id="endereco"></textarea>
+                    <br>
+                    <div class="check">
+                        <label for="checkbox-termos"> Aceito os termos</label><input type="checkbox" id="checkbox-termos"/>
+                    </div>
+                    <br>
+                    <button id="btnSubmit" type="submit">
+                    Enviar
+                    </button>
+                    <button id="btnReset" type="reset">
+                    Limpar
+                    </button>
+                    <br>
+                    <p>
+                        Obs: O pagamento é efetuado no momento da busca ou entrega dos pets!
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <P>
+                &copy; Catch Pet - Todos os direitos reservados - 2024
+            </P>
+        </div>
+    </footer>
+</body>
+</html>

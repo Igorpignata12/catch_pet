@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+header,
+section {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style:normal;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #c9bc12;
+    color: #fff;
+}
+
+header nav li {
+    margin-left: 16px;
+    display: inline;
+    font-size: 26px;
+}
+
+#btnVoltar i {
+    background-color: #c9bc12;
+    padding: 11px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btnVoltar {
+    border: none;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+section {
+    background-color:rgb(243, 243, 104) ;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h2{
+    margin-left: 300px;
+}
+
+.text-content {
+    margin-bottom: 200px;
+}
+
+#cacau {
+    height: 820px;
+    margin-top: 50px;
+}
